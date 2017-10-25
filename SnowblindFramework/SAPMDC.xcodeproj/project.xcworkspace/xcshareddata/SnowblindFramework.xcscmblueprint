@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6C240C4382D8E8D4F61DAE7B0FA39A9834565175",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "48741DD519528784484484A2E290908B728C9E79" : 9223372036854775807,
+    "6C240C4382D8E8D4F61DAE7B0FA39A9834565175" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0CAC50F3-5625-4B16-B9A8-034DE2C10053",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "48741DD519528784484484A2E290908B728C9E79" : "ns\/platform-sdk\/",
+    "6C240C4382D8E8D4F61DAE7B0FA39A9834565175" : "ns\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SnowblindFramework",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "src\/SnowblindClientApplication\/frameworks\/SnowblindFramework\/SnowblindFramework.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/git.wdf.sap.corp:29418\/com.sap.mobile.platform.client.hcp.sdk.ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "48741DD519528784484484A2E290908B728C9E79"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.wdf.sap.corp\/snowblind\/sdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6C240C4382D8E8D4F61DAE7B0FA39A9834565175"
+    }
+  ]
+}

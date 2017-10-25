@@ -1,0 +1,34 @@
+
+disabled_rules: # rule identifiers to exclude from running
+  - todo
+  - redundant_void_return
+  - shorthand_operator
+  - vertical_parameter_alignment
+  - weak_delegate
+  - syntactic_sugar
+  - line_length
+  - type_body_length
+  - file_length
+  - xctfail_message
+
+# configurable rules can be customized from this configuration file
+# binary rules can set their severity level
+force_cast: warning # implicitly
+
+#customize rules
+line_length: 180
+
+# This is the default behavior for version 0.12.0 which is the official
+# version we are using. The new default behavior is to be OK with trailing
+# whitespaces in comments (as they might me .md formatted). For now this way
+# we will all have the same setup and autocorrect will work the same for all.
+trailing_whitespace:
+  ignores_comments: false
+
+file_length:
+  warning: 500
+  error: 1200
+
+type_body_length:
+  warning: 500
+  error: 1200

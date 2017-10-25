@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "WelcomePageDelegate.finishedOnboardingWithParams():WelcomePageDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.toastBridge">
+            </PersistentString>
+            <PersistentString
+               value = "self.controller">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in WelcomeScreenViewController.showEULA():WelcomeScreenViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E71779DC1F9DE62E00835FF2 /* MySectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71779D91F9DE62E00835FF2 /* MySectionDelegate.swift */; };
+		E71779DD1F9DE62E00835FF2 /* SectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71779DB1F9DE62E00835FF2 /* SectionTableViewController.swift */; };
+		E7177A001F9EE13A00835FF2 /* MyPasscodeInputScreenDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71779FF1F9EE13A00835FF2 /* MyPasscodeInputScreenDelegate.swift */; };
+		E7DBDE101F96E60A0064C46A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DBDE0F1F96E60A0064C46A /* AppDelegate.swift */; };
+		E7DBDE121F96E60A0064C46A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DBDE111F96E60A0064C46A /* ViewController.swift */; };
+		E7DBDE151F96E60A0064C46A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7DBDE131F96E60A0064C46A /* Main.storyboard */; };
+		E7DBDE171F96E60A0064C46A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7DBDE161F96E60A0064C46A /* Assets.xcassets */; };
+		E7DBDE1A1F96E60A0064C46A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7DBDE181F96E60A0064C46A /* LaunchScreen.storyboard */; };
+		E7DBDE261F96E91F0064C46A /* WelcomePageDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DBDE251F96E91F0064C46A /* WelcomePageDelegate.swift */; };
+		E7DBDEA11F983DC30064C46A /* SAPMDC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DBDE8A1F983B110064C46A /* SAPMDC.framework */; };
+		E7DBDEA21F983DC30064C46A /* SAPMDC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E7DBDE8A1F983B110064C46A /* SAPMDC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7DBDE891F983B110064C46A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7DBDE841F983B110064C46A /* SAPMDC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9F911C781D9AD1A0002E34A4;
+			remoteInfo = SAPMDC;
+		};
+		E7DBDE8B1F983B110064C46A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7DBDE841F983B110064C46A /* SAPMDC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A2125FEF1DB1845C006A6D07;
+			remoteInfo = SAPMDCTests;
+		};
+		E7DBDEA31F983DC30064C46A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7DBDE841F983B110064C46A /* SAPMDC.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F911C771D9AD1A0002E34A4;
+			remoteInfo = SAPMDC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E7DBDE4E1F96E97E0064C46A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E7DBDEA21F983DC30064C46A /* SAPMDC.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E71779D91F9DE62E00835FF2 /* MySectionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySectionDelegate.swift; sourceTree = "<group>"; };
+		E71779DB1F9DE62E00835FF2 /* SectionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionTableViewController.swift; sourceTree = "<group>"; };
+		E71779FF1F9EE13A00835FF2 /* MyPasscodeInputScreenDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPasscodeInputScreenDelegate.swift; sourceTree = "<group>"; };
+		E7DBDE0C1F96E60A0064C46A /* SnowblindDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowblindDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7DBDE0F1F96E60A0064C46A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7DBDE111F96E60A0064C46A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7DBDE141F96E60A0064C46A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7DBDE161F96E60A0064C46A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7DBDE191F96E60A0064C46A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7DBDE1B1F96E60A0064C46A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7DBDE251F96E91F0064C46A /* WelcomePageDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageDelegate.swift; sourceTree = "<group>"; };
+		E7DBDE841F983B110064C46A /* SAPMDC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SAPMDC.xcodeproj; path = SnowblindFramework/SAPMDC.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7DBDE091F96E60A0064C46A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7DBDEA11F983DC30064C46A /* SAPMDC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7DBDE031F96E60A0064C46A = {
+			isa = PBXGroup;
+			children = (
+				E7DBDE841F983B110064C46A /* SAPMDC.xcodeproj */,
+				E7DBDE0E1F96E60A0064C46A /* SnowblindDemo */,
+				E7DBDE0D1F96E60A0064C46A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7DBDE0D1F96E60A0064C46A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7DBDE0C1F96E60A0064C46A /* SnowblindDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7DBDE0E1F96E60A0064C46A /* SnowblindDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E71779D91F9DE62E00835FF2 /* MySectionDelegate.swift */,
+				E71779DB1F9DE62E00835FF2 /* SectionTableViewController.swift */,
+				E7DBDE0F1F96E60A0064C46A /* AppDelegate.swift */,
+				E7DBDE111F96E60A0064C46A /* ViewController.swift */,
+				E7DBDE131F96E60A0064C46A /* Main.storyboard */,
+				E7DBDE161F96E60A0064C46A /* Assets.xcassets */,
+				E7DBDE181F96E60A0064C46A /* LaunchScreen.storyboard */,
+				E7DBDE1B1F96E60A0064C46A /* Info.plist */,
+				E7DBDE251F96E91F0064C46A /* WelcomePageDelegate.swift */,
+				E71779FF1F9EE13A00835FF2 /* MyPasscodeInputScreenDelegate.swift */,
+			);
+			path = SnowblindDemo;
+			sourceTree = "<group>";
+		};
+		E7DBDE851F983B110064C46A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7DBDE8A1F983B110064C46A /* SAPMDC.framework */,
+				E7DBDE8C1F983B110064C46A /* SAPMDCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7DBDE0B1F96E60A0064C46A /* SnowblindDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7DBDE1E1F96E60A0064C46A /* Build configuration list for PBXNativeTarget "SnowblindDemo" */;
+			buildPhases = (
+				E7DBDE081F96E60A0064C46A /* Sources */,
+				E7DBDE091F96E60A0064C46A /* Frameworks */,
+				E7DBDE0A1F96E60A0064C46A /* Resources */,
+				E7DBDE4E1F96E97E0064C46A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7DBDEA41F983DC30064C46A /* PBXTargetDependency */,
+			);
+			name = SnowblindDemo;
+			productName = SnowblindDemo;
+			productReference = E7DBDE0C1F96E60A0064C46A /* SnowblindDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7DBDE041F96E60A0064C46A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = sap;
+				TargetAttributes = {
+					E7DBDE0B1F96E60A0064C46A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E7DBDE071F96E60A0064C46A /* Build configuration list for PBXProject "SnowblindDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7DBDE031F96E60A0064C46A;
+			productRefGroup = E7DBDE0D1F96E60A0064C46A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E7DBDE851F983B110064C46A /* Products */;
+					ProjectRef = E7DBDE841F983B110064C46A /* SAPMDC.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E7DBDE0B1F96E60A0064C46A /* SnowblindDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E7DBDE8A1F983B110064C46A /* SAPMDC.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SAPMDC.framework;
+			remoteRef = E7DBDE891F983B110064C46A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7DBDE8C1F983B110064C46A /* SAPMDCTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SAPMDCTests.xctest;
+			remoteRef = E7DBDE8B1F983B110064C46A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7DBDE0A1F96E60A0064C46A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7DBDE1A1F96E60A0064C46A /* LaunchScreen.storyboard in Resources */,
+				E7DBDE171F96E60A0064C46A /* Assets.xcassets in Resources */,
+				E7DBDE151F96E60A0064C46A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7DBDE081F96E60A0064C46A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71779DC1F9DE62E00835FF2 /* MySectionDelegate.swift in Sources */,
+				E7177A001F9EE13A00835FF2 /* MyPasscodeInputScreenDelegate.swift in Sources */,
+				E7DBDE121F96E60A0064C46A /* ViewController.swift in Sources */,
+				E7DBDE261F96E91F0064C46A /* WelcomePageDelegate.swift in Sources */,
+				E71779DD1F9DE62E00835FF2 /* SectionTableViewController.swift in Sources */,
+				E7DBDE101F96E60A0064C46A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7DBDEA41F983DC30064C46A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAPMDC;
+			targetProxy = E7DBDEA31F983DC30064C46A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7DBDE131F96E60A0064C46A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7DBDE141F96E60A0064C46A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7DBDE181F96E60A0064C46A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7DBDE191F96E60A0064C46A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7DBDE1C1F96E60A0064C46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7DBDE1D1F96E60A0064C46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7DBDE1F1F96E60A0064C46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LCB8J2C4NJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SnowblindDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.mobile.apps.snowblinddemo.SnowblindDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7DBDE201F96E60A0064C46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LCB8J2C4NJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SnowblindDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.mobile.apps.snowblinddemo.SnowblindDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7DBDE071F96E60A0064C46A /* Build configuration list for PBXProject "SnowblindDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7DBDE1C1F96E60A0064C46A /* Debug */,
+				E7DBDE1D1F96E60A0064C46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7DBDE1E1F96E60A0064C46A /* Build configuration list for PBXNativeTarget "SnowblindDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7DBDE1F1F96E60A0064C46A /* Debug */,
+				E7DBDE201F96E60A0064C46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7DBDE041F96E60A0064C46A /* Project object */;
+}

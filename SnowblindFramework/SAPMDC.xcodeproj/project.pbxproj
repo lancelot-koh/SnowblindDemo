@@ -1,0 +1,1329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E2A306D1E72F770004596BD /* SecureStoreBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2A306C1E72F770004596BD /* SecureStoreBridge.m */; };
+		1E2A306F1E72F801004596BD /* SecureStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2A306E1E72F801004596BD /* SecureStoreManager.swift */; };
+		1E2A30701E72F8F7004596BD /* SecureStoreBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E2A306A1E72F74B004596BD /* SecureStoreBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E3877B11E95722B00192F9B /* BannerMessageViewBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E3877AE1E95722B00192F9B /* BannerMessageViewBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E3877B21E95722B00192F9B /* BannerMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3877AF1E95722B00192F9B /* BannerMessageView.swift */; };
+		1E3877B31E95722B00192F9B /* BannerMessageViewBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3877B01E95722B00192F9B /* BannerMessageViewBridge.m */; };
+		1E3C529B1F7D74F8004817BE /* EmptySectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3C529A1F7D74F8004817BE /* EmptySectionTableViewCell.swift */; };
+		1E605BB81E4B9C9A00E0CC6D /* SectionsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E605BB71E4B9C9A00E0CC6D /* SectionsTest.swift */; };
+		1E796A411E5925B300161C47 /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E796A401E5925B300161C47 /* WelcomeScreenViewController.swift */; };
+		1E796A481E592E5100161C47 /* WelcomeScreenBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E796A461E592E5100161C47 /* WelcomeScreenBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E796A491E592E5100161C47 /* WelcomeScreenBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E796A471E592E5100161C47 /* WelcomeScreenBridge.m */; };
+		1EA77EC61F2BB6BE00C77286 /* HelpSectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA77EC51F2BB6BE00C77286 /* HelpSectionFooterView.swift */; };
+		1EAC37EE1E7E39BE00C6C4EB /* PasscodeInputScreenDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EAC37ED1E7E39BE00C6C4EB /* PasscodeInputScreenDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EAC37F01E7E3A2000C6C4EB /* PasscodeInputScreenDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC37EF1E7E3A2000C6C4EB /* PasscodeInputScreenDelegate.m */; };
+		1EAC37F21E7E3AD100C6C4EB /* PasscodeInputScreenBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EAC37F11E7E3AD100C6C4EB /* PasscodeInputScreenBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EAC37F41E7E3B2700C6C4EB /* PasscodeInputScreenBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC37F31E7E3B2700C6C4EB /* PasscodeInputScreenBridge.m */; };
+		1EB7D4B71E78C67300403F5A /* DataServiceUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB7D4B61E78C67300403F5A /* DataServiceUtilsTests.swift */; };
+		1EBFE68B1E54AD5D00624046 /* FullScreenTableViewControllerTraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFE68A1E54AD5D00624046 /* FullScreenTableViewControllerTraits.swift */; };
+		1EC196EA1E6117FF00A7DD3B /* WelcomeScreenDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EC196E91E6117FF00A7DD3B /* WelcomeScreenDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EC196EC1E61183C00A7DD3B /* WelcomeScreenDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC196EB1E61183C00A7DD3B /* WelcomeScreenDelegate.m */; };
+		30AB6C4A1E6DF0F700DEEB0E /* SecureStoreManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AB6C491E6DF0F700DEEB0E /* SecureStoreManagerTests.swift */; };
+		40863F781DFF2A4E00A34281 /* FormCellFactoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40863F771DFF2A4E00A34281 /* FormCellFactoryTest.swift */; };
+		408D144E1EA8F84E0098E7B2 /* PasscodeViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408D144D1EA8F84E0098E7B2 /* PasscodeViewControllerTest.swift */; };
+		430AE9531E687653006E3F41 /* EULAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430AE9521E687653006E3F41 /* EULAViewController.swift */; };
+		431BADDB1EAE9CB300C07FEF /* EULA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431BADDA1EAE9CB300C07FEF /* EULA.storyboard */; };
+		431CB2B41E6476030076E346 /* PasscodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431CB2B31E6476030076E346 /* PasscodeViewController.swift */; };
+		434E39431E60A7E400E6383A /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434E39421E60A7E400E6383A /* AppConfig.swift */; };
+		5E59FE8E1E8E701700696E84 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E59FE8D1E8E701700696E84 /* ActivityIndicatorView.swift */; };
+		5E59FE9B1E8E74B900696E84 /* ActivityIndicatorViewBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E59FE991E8E74B900696E84 /* ActivityIndicatorViewBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E59FE9C1E8E74B900696E84 /* ActivityIndicatorViewBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E59FE9A1E8E74B900696E84 /* ActivityIndicatorViewBridge.m */; };
+		5E6B350D1F51CA6E00D40F13 /* ListPickerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6B350C1F51CA6E00D40F13 /* ListPickerDataSource.swift */; };
+		8009D1041E40090B008C0064 /* MockDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8009D1031E40090B008C0064 /* MockDataProvider.swift */; };
+		806FEB861E80233100D055A9 /* OAuthRequestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806FEB851E80233100D055A9 /* OAuthRequestor.swift */; };
+		806FEB881E81B6E800D055A9 /* SecureOAuth2TokenStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806FEB871E81B6E800D055A9 /* SecureOAuth2TokenStore.swift */; };
+		806FEB8D1E83184A00D055A9 /* OAuthRequestorBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 806FEB8B1E8306B900D055A9 /* OAuthRequestorBridge.m */; };
+		806FEB8E1E837B3200D055A9 /* OAuthRequestorBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 806FEB8A1E83043E00D055A9 /* OAuthRequestorBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		806FEB911E89862100D055A9 /* OAuthRequestorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806FEB901E89862100D055A9 /* OAuthRequestorTest.swift */; };
+		83BC6AA31E3F9147008AE61D /* MockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC6AA21E3F9147008AE61D /* MockDataService.swift */; };
+		85426EAF1E5B2228004C14F0 /* LoggerManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85426EAE1E5B2228004C14F0 /* LoggerManagerTest.swift */; };
+		85543A9F1F7BCBCE00491D36 /* KeychainUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85543A9E1F7BCBCE00491D36 /* KeychainUtils.swift */; };
+		857CD7301F7A426F00E9F451 /* PasscodeRetryHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857CD72F1F7A426F00E9F451 /* PasscodeRetryHandler.swift */; };
+		858A303A1E52F8A3006D2EB8 /* LoggerBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 858A30391E52F8A3006D2EB8 /* LoggerBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		858A303C1E52F8CF006D2EB8 /* LoggerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 858A303B1E52F8CF006D2EB8 /* LoggerBridge.m */; };
+		858A303E1E52F9AB006D2EB8 /* LoggerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858A303D1E52F9AB006D2EB8 /* LoggerManager.swift */; };
+		85BC16891E28BDF200CEC034 /* OnlineODataProviderReadMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BC16881E28BDF200CEC034 /* OnlineODataProviderReadMock.swift */; };
+		85E144251F7A80A500D61478 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434E39421E60A7E400E6383A /* AppConfig.swift */; };
+		9F0F46981E393DA0005AE7DA /* OfflineODataDelegateImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0F46971E393DA0005AE7DA /* OfflineODataDelegateImpl.swift */; };
+		9F1923B41E539092007497C9 /* SectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F1923B31E539092007497C9 /* SectionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F1923B61E539114007497C9 /* SectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1923B51E539114007497C9 /* SectionDelegate.m */; };
+		9F3D51CB1E799ADD0030CE0A /* ToastMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D51CA1E799ADD0030CE0A /* ToastMessageView.swift */; };
+		9F3D51CD1E799B740030CE0A /* ToastMessageViewBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3D51CC1E799B740030CE0A /* ToastMessageViewBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F3D51CF1E799BA30030CE0A /* ToastMessageViewBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D51CE1E799BA30030CE0A /* ToastMessageViewBridge.m */; };
+		9F3D51D21E79A01C0030CE0A /* ToastMessageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D51D11E79A01C0030CE0A /* ToastMessageViewTests.swift */; };
+		9F7A56681DAD5AFE00A30FA1 /* BridgeCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7A56641DAD5AFE00A30FA1 /* BridgeCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F7A56691DAD5AFE00A30FA1 /* SAPMDCBridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7A56651DAD5AFE00A30FA1 /* SAPMDCBridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F7A566A1DAD5AFE00A30FA1 /* SAPMDC.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7A56661DAD5AFE00A30FA1 /* SAPMDC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F7A56711DAD5B0B00A30FA1 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A566B1DAD5B0B00A30FA1 /* DataProvider.swift */; };
+		9F7A56721DAD5B0B00A30FA1 /* DataServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A566C1DAD5B0B00A30FA1 /* DataServiceManager.swift */; };
+		9F7A56731DAD5B0B00A30FA1 /* ODataServiceManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A566D1DAD5B0B00A30FA1 /* ODataServiceManagerBridge.m */; };
+		9F7A56741DAD5B0B00A30FA1 /* DataServiceUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A566E1DAD5B0B00A30FA1 /* DataServiceUtils.swift */; };
+		9F7A56751DAD5B0B00A30FA1 /* ODataServiceManagerBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7A566F1DAD5B0B00A30FA1 /* ODataServiceManagerBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F9458AF1E576AFD0026E0D0 /* ObjectCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9458AE1E576AFD0026E0D0 /* ObjectCollectionCell.swift */; };
+		9F9458B61E5B91960026E0D0 /* ObjectCollectionCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9458B51E5B91960026E0D0 /* ObjectCollectionCellTests.swift */; };
+		9FA240DF1E490887007B38E0 /* SectionedTableBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA240DE1E490887007B38E0 /* SectionedTableBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FA240E11E4908A7007B38E0 /* SectionedTableBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA240E01E4908A7007B38E0 /* SectionedTableBridge.m */; };
+		9FA240E51E4915DE007B38E0 /* SectionedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA240E41E4915DE007B38E0 /* SectionedTableViewController.swift */; };
+		9FA240E81E491E15007B38E0 /* Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA240E71E491E15007B38E0 /* Sections.swift */; };
+		9FA240EA1E492894007B38E0 /* SectionBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA240E91E492894007B38E0 /* SectionBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FA240EC1E4928DA007B38E0 /* SectionBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA240EB1E4928DA007B38E0 /* SectionBridge.m */; };
+		9FA72B601F548C630074A9BF /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA72B5F1F548C630074A9BF /* Search.swift */; };
+		9FD52F371EB2729600934E2B /* ExtensionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD52F361EB2729600934E2B /* ExtensionCollectionViewCell.swift */; };
+		A23DCFEC1E99D71E00D77CBF /* ContactCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23DCFEB1E99D71E00D77CBF /* ContactCellTests.swift */; };
+		A2502F3C1E99B4E500156F7A /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2502F3B1E99B4E500156F7A /* ContactCell.swift */; };
+		A2886CBC1DB54EF5005F153B /* DataServiceManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2886CBB1DB54EF5005F153B /* DataServiceManagerTests.swift */; };
+		A2886CD01DB54F8F005F153B /* NorthwindCSDL.xml in Resources */ = {isa = PBXBuildFile; fileRef = A2886CCE1DB54F8F005F153B /* NorthwindCSDL.xml */; };
+		A2886CD21DB54FE0005F153B /* ODataServiceProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2886CD11DB54FE0005F153B /* ODataServiceProviderTests.swift */; };
+		A289D1DB1E8555C000937F42 /* StylingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A289D1D81E8555C000937F42 /* StylingHelper.swift */; };
+		A289D1DC1E8555C000937F42 /* StylingHelperBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = A289D1D91E8555C000937F42 /* StylingHelperBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A289D1DD1E8555C000937F42 /* StylingHelperBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A289D1DA1E8555C000937F42 /* StylingHelperBridge.m */; };
+		A2A116CC1DE596BC00A2717B /* FormCellItemDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A2A116CB1DE596BC00A2717B /* FormCellItemDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2A116DC1DE596CC00A2717B /* FormCellItemDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A116DB1DE596CC00A2717B /* FormCellItemDelegate.m */; };
+		A2E279F11E5D8A62007530CE /* AttachmentFormViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E279F01E5D8A62007530CE /* AttachmentFormViewDelegate.swift */; };
+		A2F4BD561DB51BDB005AC2F7 /* SAPMDC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F911C781D9AD1A0002E34A4 /* SAPMDC.framework */; };
+		A620FA9D1DD5F221000453E0 /* FormCellContainerBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = A620FA9C1DD5F221000453E0 /* FormCellContainerBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A620FA9F1DD5F22E000453E0 /* FormCellContainerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A620FA9E1DD5F22E000453E0 /* FormCellContainerBridge.m */; };
+		A661B3A71F28B83000511424 /* OpenDocumentBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = A661B3A61F28B6E200511424 /* OpenDocumentBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A661B3A91F28B8F800511424 /* OpenDocumentBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A661B3A81F28B8F800511424 /* OpenDocumentBridge.m */; };
+		A661B3AB1F28B92B00511424 /* OpenDocumentBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A661B3AA1F28B92B00511424 /* OpenDocumentBridge.swift */; };
+		A6B8B4421F38784E00B8794F /* OpenDocumentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B8B4411F38784E00B8794F /* OpenDocumentTest.swift */; };
+		AB38E5651F20E26A0017843C /* FUIButtonWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB38E5641F20E26A0017843C /* FUIButtonWrapper.swift */; };
+		AB4019451E5DFEDB00186EAA /* ImagePathHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4019441E5DFEDB00186EAA /* ImagePathHandler.swift */; };
+		AB4EE5B51E4DEFBD0097D51C /* ObjectHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4EE5B41E4DEFBD0097D51C /* ObjectHeader.swift */; };
+		B3A5556E1EA6217900391BA4 /* FilterFormCellFactoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A5556D1EA6217900391BA4 /* FilterFormCellFactoryTest.swift */; };
+		C15E40221DBE94E200F70139 /* ObjectCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15E40211DBE94E200F70139 /* ObjectCellTests.swift */; };
+		C18D77DA1DB7CBB10096AAFB /* ObjectCellBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = C18D77D81DB7CBB10096AAFB /* ObjectCellBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C18D77DB1DB7CBB10096AAFB /* ObjectCellBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D77D91DB7CBB10096AAFB /* ObjectCellBridge.m */; };
+		C18D77EF1DB7D9190096AAFB /* ObjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18D77EE1DB7D9190096AAFB /* ObjectCell.swift */; };
+		C1CD75531DCA025500801C37 /* MockOnlineODataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CD75521DCA025500801C37 /* MockOnlineODataProvider.swift */; };
+		D40417051DFB356B00F81395 /* FormCellFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40417041DFB356B00F81395 /* FormCellFactory.swift */; };
+		D40B956F1E0C7760009226E8 /* FormCellContainerViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40B956E1E0C7760009226E8 /* FormCellContainerViewControllerTest.swift */; };
+		D4A5BF7B1E2D61CE00DFD57E /* ParameterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A5BF7A1E2D61CE00DFD57E /* ParameterHelper.swift */; };
+		DC4551151E93E4BA0056EE50 /* EntityValue+Edit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4551141E93E4BA0056EE50 /* EntityValue+Edit.swift */; };
+		DC4551171E93E4D60056EE50 /* EntityValueList+ToJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4551161E93E4D60056EE50 /* EntityValueList+ToJson.swift */; };
+		DC4551191E93E4EA0056EE50 /* EntityValue+ToJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4551181E93E4EA0056EE50 /* EntityValue+ToJson.swift */; };
+		DC541A831EA6AE5F00888157 /* ChangeSetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC541A821EA6AE5F00888157 /* ChangeSetManager.swift */; };
+		DC5DFF9F1E8171BB00AC3D1F /* ODataErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5DFF9E1E8171BB00AC3D1F /* ODataErrors.swift */; };
+		DC626B0D1EA156CB00288D64 /* ChangeSet+EntityWithReadLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC626B0C1EA156CB00288D64 /* ChangeSet+EntityWithReadLink.swift */; };
+		DC79D0F81ECF731400513BEA /* ODataCrudParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC79D0F61ECF731400513BEA /* ODataCrudParams.swift */; };
+		DC79D0F91ECF731400513BEA /* ODataCrudOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC79D0F71ECF731400513BEA /* ODataCrudOperation.swift */; };
+		DC79D1071ECF8A3700513BEA /* ReadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC79D1061ECF8A3700513BEA /* ReadService.swift */; };
+		DC79D1251ED26C8000513BEA /* CrudParamsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC79D11C1ED26C8000513BEA /* CrudParamsHelper.swift */; };
+		DC79D1261ED26C8000513BEA /* ODataDeleter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC79D11D1ED26C8000513BEA /* ODataDeleter.swift */; };
+		DC79D1271ED26C8000513BEA /* ODataCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC79D11E1ED26C8000513BEA /* ODataCreator.swift */; };
+		DC79D1281ED26C8000513BEA /* ODataUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC79D11F1ED26C8000513BEA /* ODataUpdater.swift */; };
+		DC79D1291ED26C8000513BEA /* BaseODataCruder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC79D1201ED26C8000513BEA /* BaseODataCruder.swift */; };
+		DC79D12A1ED26C8000513BEA /* QueryOptionsReadParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC79D1221ED26C8000513BEA /* QueryOptionsReadParams.swift */; };
+		DC79D12B1ED26C8000513BEA /* ReadLinkReadParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC79D1231ED26C8000513BEA /* ReadLinkReadParams.swift */; };
+		DC79D12C1ED26C8000513BEA /* ReadParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC79D1241ED26C8000513BEA /* ReadParams.swift */; };
+		DC8C18B31ED5E6D9003FF9CD /* Property+PartnerPropertyFromEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8C18B21ED5E6D9003FF9CD /* Property+PartnerPropertyFromEntity.swift */; };
+		DC9074F31ED4FA69002CE1BE /* LinkingScenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9074F21ED4FA69002CE1BE /* LinkingScenario.swift */; };
+		DCDBF1D81ED47D0500A77FEE /* ODataLinker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDBF1D31ED47D0500A77FEE /* ODataLinker.swift */; };
+		DCDBF1D91ED47D0500A77FEE /* ODataLinkCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDBF1D41ED47D0500A77FEE /* ODataLinkCreator.swift */; };
+		DCDBF1DA1ED47D0500A77FEE /* ODataLinkDeleter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDBF1D51ED47D0500A77FEE /* ODataLinkDeleter.swift */; };
+		DCDBF1DC1ED47D0500A77FEE /* ODataLinkUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDBF1D71ED47D0500A77FEE /* ODataLinkUpdater.swift */; };
+		DCDBF1DE1ED47D9C00A77FEE /* BindingLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDBF1DD1ED47D9C00A77FEE /* BindingLink.swift */; };
+		DCDBF1E01ED47DB600A77FEE /* ReferentialConstraintLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDBF1DF1ED47DB600A77FEE /* ReferentialConstraintLink.swift */; };
+		DCF548E21E7C310D00060C3E /* ODataServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF548E11E7C310D00060C3E /* ODataServiceProvider.swift */; };
+		EEB6D3141DDF3CCB00AD6DD6 /* FormCellContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB6D3131DDF3CCB00AD6DD6 /* FormCellContainerViewController.swift */; };
+		EEFF691D1E81206000327F22 /* NavigationBarBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFF691C1E81206000327F22 /* NavigationBarBridge.m */; };
+		EEFF691F1E81206F00327F22 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFF691E1E81206F00327F22 /* NavigationBar.swift */; };
+		EEFF69201E8121E900327F22 /* NavigationBarBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFF691B1E81205000327F22 /* NavigationBarBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEFF69231E8279B700327F22 /* NavigationBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFF69221E8279B700327F22 /* NavigationBarTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2F4BD541DB51BD3005AC2F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F911C6F1D9AD1A0002E34A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F911C771D9AD1A0002E34A4;
+			remoteInfo = SnowblindFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1F4E7CA1DB54932002419A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1E2A306A1E72F74B004596BD /* SecureStoreBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = SecureStoreBridge.h; path = Storage/SecureStoreBridge.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1E2A306C1E72F770004596BD /* SecureStoreBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = SecureStoreBridge.m; path = Storage/SecureStoreBridge.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1E2A306E1E72F801004596BD /* SecureStoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SecureStoreManager.swift; path = Storage/SecureStoreManager.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1E3877AE1E95722B00192F9B /* BannerMessageViewBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BannerMessageViewBridge.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1E3877AF1E95722B00192F9B /* BannerMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = BannerMessageView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1E3877B01E95722B00192F9B /* BannerMessageViewBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BannerMessageViewBridge.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1E3C529A1F7D74F8004817BE /* EmptySectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptySectionTableViewCell.swift; sourceTree = "<group>"; };
+		1E605BB71E4B9C9A00E0CC6D /* SectionsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SectionsTest.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1E796A401E5925B300161C47 /* WelcomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = WelcomeScreenViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1E796A461E592E5100161C47 /* WelcomeScreenBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = WelcomeScreenBridge.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1E796A471E592E5100161C47 /* WelcomeScreenBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WelcomeScreenBridge.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1EA77EC51F2BB6BE00C77286 /* HelpSectionFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpSectionFooterView.swift; sourceTree = "<group>"; };
+		1EAC37ED1E7E39BE00C6C4EB /* PasscodeInputScreenDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PasscodeInputScreenDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1EAC37EF1E7E3A2000C6C4EB /* PasscodeInputScreenDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PasscodeInputScreenDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1EAC37F11E7E3AD100C6C4EB /* PasscodeInputScreenBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PasscodeInputScreenBridge.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1EAC37F31E7E3B2700C6C4EB /* PasscodeInputScreenBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PasscodeInputScreenBridge.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1EB7D4B61E78C67300403F5A /* DataServiceUtilsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = DataServiceUtilsTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1EBFE68A1E54AD5D00624046 /* FullScreenTableViewControllerTraits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = FullScreenTableViewControllerTraits.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1EC196E91E6117FF00A7DD3B /* WelcomeScreenDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = WelcomeScreenDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1EC196EB1E61183C00A7DD3B /* WelcomeScreenDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WelcomeScreenDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		30AB6C491E6DF0F700DEEB0E /* SecureStoreManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SecureStoreManagerTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		40863F771DFF2A4E00A34281 /* FormCellFactoryTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormCellFactoryTest.swift; sourceTree = "<group>"; };
+		408D144D1EA8F84E0098E7B2 /* PasscodeViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeViewControllerTest.swift; sourceTree = "<group>"; };
+		430AE9521E687653006E3F41 /* EULAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = EULAViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		431BADDA1EAE9CB300C07FEF /* EULA.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EULA.storyboard; sourceTree = "<group>"; };
+		431CB2B31E6476030076E346 /* PasscodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PasscodeViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		434E39421E60A7E400E6383A /* AppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppConfig.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5E59FE8D1E8E701700696E84 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ActivityIndicatorView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5E59FE991E8E74B900696E84 /* ActivityIndicatorViewBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ActivityIndicatorViewBridge.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		5E59FE9A1E8E74B900696E84 /* ActivityIndicatorViewBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ActivityIndicatorViewBridge.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5E6B350C1F51CA6E00D40F13 /* ListPickerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPickerDataSource.swift; sourceTree = "<group>"; };
+		8009D1031E40090B008C0064 /* MockDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = MockDataProvider.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		806FEB851E80233100D055A9 /* OAuthRequestor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = OAuthRequestor.swift; path = OAuth/OAuthRequestor.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		806FEB871E81B6E800D055A9 /* SecureOAuth2TokenStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SecureOAuth2TokenStore.swift; path = OAuth/SecureOAuth2TokenStore.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		806FEB8A1E83043E00D055A9 /* OAuthRequestorBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = OAuthRequestorBridge.h; path = OAuth/OAuthRequestorBridge.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		806FEB8B1E8306B900D055A9 /* OAuthRequestorBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = OAuthRequestorBridge.m; path = OAuth/OAuthRequestorBridge.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		806FEB901E89862100D055A9 /* OAuthRequestorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = OAuthRequestorTest.swift; path = OAuth/OAuthRequestorTest.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		83BC6AA21E3F9147008AE61D /* MockDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = MockDataService.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		85426EAE1E5B2228004C14F0 /* LoggerManagerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = LoggerManagerTest.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		85543A9E1F7BCBCE00491D36 /* KeychainUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainUtils.swift; sourceTree = "<group>"; };
+		857CD72F1F7A426F00E9F451 /* PasscodeRetryHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeRetryHandler.swift; sourceTree = "<group>"; };
+		858A30391E52F8A3006D2EB8 /* LoggerBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LoggerBridge.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		858A303B1E52F8CF006D2EB8 /* LoggerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LoggerBridge.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		858A303D1E52F9AB006D2EB8 /* LoggerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = LoggerManager.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		85BC16881E28BDF200CEC034 /* OnlineODataProviderReadMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = OnlineODataProviderReadMock.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9F0F46971E393DA0005AE7DA /* OfflineODataDelegateImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = OfflineODataDelegateImpl.swift; path = OData/OfflineODataDelegateImpl.swift; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9F1923B31E539092007497C9 /* SectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SectionDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		9F1923B51E539114007497C9 /* SectionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SectionDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9F3D51CA1E799ADD0030CE0A /* ToastMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ToastMessageView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9F3D51CC1E799B740030CE0A /* ToastMessageViewBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ToastMessageViewBridge.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		9F3D51CE1E799BA30030CE0A /* ToastMessageViewBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ToastMessageViewBridge.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9F3D51D11E79A01C0030CE0A /* ToastMessageViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ToastMessageViewTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9F7A56631DAD5AFE00A30FA1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Common/Info.plist; sourceTree = "<group>"; };
+		9F7A56641DAD5AFE00A30FA1 /* BridgeCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = BridgeCommon.h; path = Common/BridgeCommon.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		9F7A56651DAD5AFE00A30FA1 /* SAPMDCBridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = "SAPMDCBridging-Header.h"; path = "Common/SAPMDCBridging-Header.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		9F7A56661DAD5AFE00A30FA1 /* SAPMDC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = SAPMDC.h; path = Common/SAPMDC.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		9F7A566B1DAD5B0B00A30FA1 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataProvider.swift; path = OData/DataProvider.swift; sourceTree = SOURCE_ROOT; };
+		9F7A566C1DAD5B0B00A30FA1 /* DataServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataServiceManager.swift; path = OData/DataServiceManager.swift; sourceTree = SOURCE_ROOT; };
+		9F7A566D1DAD5B0B00A30FA1 /* ODataServiceManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = ODataServiceManagerBridge.m; path = OData/ODataServiceManagerBridge.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9F7A566E1DAD5B0B00A30FA1 /* DataServiceUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataServiceUtils.swift; path = OData/DataServiceUtils.swift; sourceTree = SOURCE_ROOT; };
+		9F7A566F1DAD5B0B00A30FA1 /* ODataServiceManagerBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODataServiceManagerBridge.h; path = OData/ODataServiceManagerBridge.h; sourceTree = SOURCE_ROOT; };
+		9F911C781D9AD1A0002E34A4 /* SAPMDC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAPMDC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9458AE1E576AFD0026E0D0 /* ObjectCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ObjectCollectionCell.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9F9458B51E5B91960026E0D0 /* ObjectCollectionCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ObjectCollectionCellTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9FA240DE1E490887007B38E0 /* SectionedTableBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SectionedTableBridge.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		9FA240E01E4908A7007B38E0 /* SectionedTableBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SectionedTableBridge.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9FA240E41E4915DE007B38E0 /* SectionedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SectionedTableViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9FA240E71E491E15007B38E0 /* Sections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Sections.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9FA240E91E492894007B38E0 /* SectionBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SectionBridge.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		9FA240EB1E4928DA007B38E0 /* SectionBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SectionBridge.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9FA72B5F1F548C630074A9BF /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		9FD52F361EB2729600934E2B /* ExtensionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionCollectionViewCell.swift; sourceTree = "<group>"; };
+		A2125FEF1DB1845C006A6D07 /* SAPMDCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAPMDCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2125FF31DB1845C006A6D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23DCFEB1E99D71E00D77CBF /* ContactCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ContactCellTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A2502F3B1E99B4E500156F7A /* ContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ContactCell.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A2886CBB1DB54EF5005F153B /* DataServiceManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = DataServiceManagerTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A2886CCE1DB54F8F005F153B /* NorthwindCSDL.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NorthwindCSDL.xml; sourceTree = "<group>"; };
+		A2886CD11DB54FE0005F153B /* ODataServiceProviderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ODataServiceProviderTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A289D1D81E8555C000937F42 /* StylingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StylingHelper.swift; sourceTree = "<group>"; };
+		A289D1D91E8555C000937F42 /* StylingHelperBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StylingHelperBridge.h; sourceTree = "<group>"; };
+		A289D1DA1E8555C000937F42 /* StylingHelperBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StylingHelperBridge.m; sourceTree = "<group>"; };
+		A2A116CB1DE596BC00A2717B /* FormCellItemDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormCellItemDelegate.h; sourceTree = "<group>"; };
+		A2A116DB1DE596CC00A2717B /* FormCellItemDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormCellItemDelegate.m; sourceTree = "<group>"; };
+		A2E279F01E5D8A62007530CE /* AttachmentFormViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentFormViewDelegate.swift; sourceTree = "<group>"; };
+		A620FA9C1DD5F221000453E0 /* FormCellContainerBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormCellContainerBridge.h; sourceTree = "<group>"; };
+		A620FA9E1DD5F22E000453E0 /* FormCellContainerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormCellContainerBridge.m; sourceTree = "<group>"; };
+		A661B3A61F28B6E200511424 /* OpenDocumentBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenDocumentBridge.h; sourceTree = "<group>"; };
+		A661B3A81F28B8F800511424 /* OpenDocumentBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenDocumentBridge.m; sourceTree = "<group>"; };
+		A661B3AA1F28B92B00511424 /* OpenDocumentBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenDocumentBridge.swift; sourceTree = "<group>"; };
+		A6B8B4411F38784E00B8794F /* OpenDocumentTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenDocumentTest.swift; sourceTree = "<group>"; };
+		AB38E5641F20E26A0017843C /* FUIButtonWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FUIButtonWrapper.swift; sourceTree = "<group>"; };
+		AB4019441E5DFEDB00186EAA /* ImagePathHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePathHandler.swift; sourceTree = "<group>"; };
+		AB4EE5B41E4DEFBD0097D51C /* ObjectHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectHeader.swift; sourceTree = "<group>"; };
+		B3A5556D1EA6217900391BA4 /* FilterFormCellFactoryTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterFormCellFactoryTest.swift; sourceTree = "<group>"; };
+		C15E40211DBE94E200F70139 /* ObjectCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectCellTests.swift; sourceTree = "<group>"; };
+		C18D77D81DB7CBB10096AAFB /* ObjectCellBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectCellBridge.h; sourceTree = "<group>"; };
+		C18D77D91DB7CBB10096AAFB /* ObjectCellBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectCellBridge.m; sourceTree = "<group>"; };
+		C18D77EE1DB7D9190096AAFB /* ObjectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectCell.swift; sourceTree = "<group>"; };
+		C1CD75521DCA025500801C37 /* MockOnlineODataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockOnlineODataProvider.swift; sourceTree = "<group>"; };
+		D40417041DFB356B00F81395 /* FormCellFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormCellFactory.swift; sourceTree = "<group>"; };
+		D40B956E1E0C7760009226E8 /* FormCellContainerViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormCellContainerViewControllerTest.swift; sourceTree = "<group>"; };
+		D4A5BF7A1E2D61CE00DFD57E /* ParameterHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterHelper.swift; sourceTree = "<group>"; };
+		DC4551141E93E4BA0056EE50 /* EntityValue+Edit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EntityValue+Edit.swift"; sourceTree = "<group>"; };
+		DC4551161E93E4D60056EE50 /* EntityValueList+ToJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EntityValueList+ToJson.swift"; sourceTree = "<group>"; };
+		DC4551181E93E4EA0056EE50 /* EntityValue+ToJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EntityValue+ToJson.swift"; sourceTree = "<group>"; };
+		DC541A821EA6AE5F00888157 /* ChangeSetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangeSetManager.swift; path = OData/ChangeSetManager.swift; sourceTree = SOURCE_ROOT; };
+		DC5DFF9E1E8171BB00AC3D1F /* ODataErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ODataErrors.swift; path = OData/ODataErrors.swift; sourceTree = SOURCE_ROOT; };
+		DC626B0C1EA156CB00288D64 /* ChangeSet+EntityWithReadLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ChangeSet+EntityWithReadLink.swift"; sourceTree = "<group>"; };
+		DC79D0F61ECF731400513BEA /* ODataCrudParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODataCrudParams.swift; sourceTree = "<group>"; };
+		DC79D0F71ECF731400513BEA /* ODataCrudOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODataCrudOperation.swift; sourceTree = "<group>"; };
+		DC79D1061ECF8A3700513BEA /* ReadService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadService.swift; sourceTree = "<group>"; };
+		DC79D11C1ED26C8000513BEA /* CrudParamsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrudParamsHelper.swift; sourceTree = "<group>"; };
+		DC79D11D1ED26C8000513BEA /* ODataDeleter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODataDeleter.swift; sourceTree = "<group>"; };
+		DC79D11E1ED26C8000513BEA /* ODataCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODataCreator.swift; sourceTree = "<group>"; };
+		DC79D11F1ED26C8000513BEA /* ODataUpdater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODataUpdater.swift; sourceTree = "<group>"; };
+		DC79D1201ED26C8000513BEA /* BaseODataCruder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseODataCruder.swift; sourceTree = "<group>"; };
+		DC79D1221ED26C8000513BEA /* QueryOptionsReadParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryOptionsReadParams.swift; sourceTree = "<group>"; };
+		DC79D1231ED26C8000513BEA /* ReadLinkReadParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadLinkReadParams.swift; sourceTree = "<group>"; };
+		DC79D1241ED26C8000513BEA /* ReadParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadParams.swift; sourceTree = "<group>"; };
+		DC8C18B21ED5E6D9003FF9CD /* Property+PartnerPropertyFromEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Property+PartnerPropertyFromEntity.swift"; sourceTree = "<group>"; };
+		DC9074F21ED4FA69002CE1BE /* LinkingScenario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkingScenario.swift; sourceTree = "<group>"; };
+		DCDBF1D31ED47D0500A77FEE /* ODataLinker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODataLinker.swift; sourceTree = "<group>"; };
+		DCDBF1D41ED47D0500A77FEE /* ODataLinkCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODataLinkCreator.swift; sourceTree = "<group>"; };
+		DCDBF1D51ED47D0500A77FEE /* ODataLinkDeleter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODataLinkDeleter.swift; sourceTree = "<group>"; };
+		DCDBF1D71ED47D0500A77FEE /* ODataLinkUpdater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODataLinkUpdater.swift; sourceTree = "<group>"; };
+		DCDBF1DD1ED47D9C00A77FEE /* BindingLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindingLink.swift; sourceTree = "<group>"; };
+		DCDBF1DF1ED47DB600A77FEE /* ReferentialConstraintLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferentialConstraintLink.swift; sourceTree = "<group>"; };
+		DCF548E11E7C310D00060C3E /* ODataServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ODataServiceProvider.swift; path = OData/ODataServiceProvider.swift; sourceTree = SOURCE_ROOT; };
+		EEB6D3131DDF3CCB00AD6DD6 /* FormCellContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormCellContainerViewController.swift; sourceTree = "<group>"; };
+		EEFF691B1E81205000327F22 /* NavigationBarBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = NavigationBarBridge.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		EEFF691C1E81206000327F22 /* NavigationBarBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = NavigationBarBridge.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		EEFF691E1E81206F00327F22 /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = NavigationBar.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EEFF69221E8279B700327F22 /* NavigationBarTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = NavigationBarTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F911C741D9AD1A0002E34A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2125FEC1DB1845C006A6D07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F4BD561DB51BDB005AC2F7 /* SAPMDC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E3877AD1E95720300192F9B /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				1E3877AF1E95722B00192F9B /* BannerMessageView.swift */,
+				1E3877AE1E95722B00192F9B /* BannerMessageViewBridge.h */,
+				1E3877B01E95722B00192F9B /* BannerMessageViewBridge.m */,
+			);
+			name = Banner;
+			sourceTree = "<group>";
+		};
+		1E796A3B1E5924FF00161C47 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				434E39421E60A7E400E6383A /* AppConfig.swift */,
+				1E796A401E5925B300161C47 /* WelcomeScreenViewController.swift */,
+				431CB2B31E6476030076E346 /* PasscodeViewController.swift */,
+				1E796A461E592E5100161C47 /* WelcomeScreenBridge.h */,
+				1E796A471E592E5100161C47 /* WelcomeScreenBridge.m */,
+				1EC196E91E6117FF00A7DD3B /* WelcomeScreenDelegate.h */,
+				1EAC37ED1E7E39BE00C6C4EB /* PasscodeInputScreenDelegate.h */,
+				1EAC37EF1E7E3A2000C6C4EB /* PasscodeInputScreenDelegate.m */,
+				1EC196EB1E61183C00A7DD3B /* WelcomeScreenDelegate.m */,
+				430AE9521E687653006E3F41 /* EULAViewController.swift */,
+				1EAC37F11E7E3AD100C6C4EB /* PasscodeInputScreenBridge.h */,
+				1EAC37F31E7E3B2700C6C4EB /* PasscodeInputScreenBridge.m */,
+				857CD72F1F7A426F00E9F451 /* PasscodeRetryHandler.swift */,
+				85543A9E1F7BCBCE00491D36 /* KeychainUtils.swift */,
+				431BADDA1EAE9CB300C07FEF /* EULA.storyboard */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		1EBFE6891E54AD2500624046 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AB4019441E5DFEDB00186EAA /* ImagePathHandler.swift */,
+				1EBFE68A1E54AD5D00624046 /* FullScreenTableViewControllerTraits.swift */,
+				9FA72B5F1F548C630074A9BF /* Search.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		30698F2B1E71E0E80067280F /* SecureStore */ = {
+			isa = PBXGroup;
+			children = (
+				1E2A306A1E72F74B004596BD /* SecureStoreBridge.h */,
+				1E2A306C1E72F770004596BD /* SecureStoreBridge.m */,
+				1E2A306E1E72F801004596BD /* SecureStoreManager.swift */,
+			);
+			name = SecureStore;
+			sourceTree = "<group>";
+		};
+		30AB6C481E6DEFD200DEEB0E /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				30AB6C491E6DF0F700DEEB0E /* SecureStoreManagerTests.swift */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		40863F751DFF29E800A34281 /* FioriUI */ = {
+			isa = PBXGroup;
+			children = (
+				A6B8B43E1F38774C00B8794F /* OpenDocument */,
+				408D144C1EA8F7530098E7B2 /* Onboarding */,
+				A23DCFEA1E99D6C900D77CBF /* ContactCell */,
+				EEFF69211E82781D00327F22 /* NavigationBar */,
+				9F3D51D01E799FE20030CE0A /* Toast */,
+				30AB6C481E6DEFD200DEEB0E /* Foundation */,
+				9F9458B41E5B91680026E0D0 /* ObjectCell */,
+				9FA240ED1E492F43007B38E0 /* SectionedTable */,
+				40863F761DFF29FB00A34281 /* FormCell */,
+			);
+			name = FioriUI;
+			sourceTree = "<group>";
+		};
+		40863F761DFF29FB00A34281 /* FormCell */ = {
+			isa = PBXGroup;
+			children = (
+				B3A5556D1EA6217900391BA4 /* FilterFormCellFactoryTest.swift */,
+				D40B956E1E0C7760009226E8 /* FormCellContainerViewControllerTest.swift */,
+				40863F771DFF2A4E00A34281 /* FormCellFactoryTest.swift */,
+			);
+			name = FormCell;
+			sourceTree = "<group>";
+		};
+		408D144C1EA8F7530098E7B2 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				408D144D1EA8F84E0098E7B2 /* PasscodeViewControllerTest.swift */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		5E8D37701E8E654E0082CFA5 /* ActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				5E59FE991E8E74B900696E84 /* ActivityIndicatorViewBridge.h */,
+				5E59FE9A1E8E74B900696E84 /* ActivityIndicatorViewBridge.m */,
+				5E59FE8D1E8E701700696E84 /* ActivityIndicatorView.swift */,
+			);
+			name = ActivityIndicator;
+			sourceTree = "<group>";
+		};
+		806FEB891E81B72B00D055A9 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				806FEB851E80233100D055A9 /* OAuthRequestor.swift */,
+				806FEB8A1E83043E00D055A9 /* OAuthRequestorBridge.h */,
+				806FEB8B1E8306B900D055A9 /* OAuthRequestorBridge.m */,
+				806FEB871E81B6E800D055A9 /* SecureOAuth2TokenStore.swift */,
+			);
+			name = OAuth;
+			sourceTree = "<group>";
+		};
+		806FEB8F1E8985F800D055A9 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				806FEB901E89862100D055A9 /* OAuthRequestorTest.swift */,
+			);
+			name = OAuth;
+			sourceTree = "<group>";
+		};
+		85426EAD1E5B21D7004C14F0 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				85426EAE1E5B2228004C14F0 /* LoggerManagerTest.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		858A30371E520DA4006D2EB8 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				858A30391E52F8A3006D2EB8 /* LoggerBridge.h */,
+				858A303B1E52F8CF006D2EB8 /* LoggerBridge.m */,
+				858A303D1E52F9AB006D2EB8 /* LoggerManager.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		858A30381E520DD3006D2EB8 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				858A30371E520DA4006D2EB8 /* Logger */,
+				806FEB891E81B72B00D055A9 /* OAuth */,
+				30698F2B1E71E0E80067280F /* SecureStore */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		9F3D51C91E799AB10030CE0A /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				9F3D51CA1E799ADD0030CE0A /* ToastMessageView.swift */,
+				9F3D51CC1E799B740030CE0A /* ToastMessageViewBridge.h */,
+				9F3D51CE1E799BA30030CE0A /* ToastMessageViewBridge.m */,
+			);
+			name = Toast;
+			sourceTree = "<group>";
+		};
+		9F3D51D01E799FE20030CE0A /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				9F3D51D11E79A01C0030CE0A /* ToastMessageViewTests.swift */,
+			);
+			name = Toast;
+			sourceTree = "<group>";
+		};
+		9F7A565A1DAD5A2D00A30FA1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9F7A56631DAD5AFE00A30FA1 /* Info.plist */,
+				9F7A56641DAD5AFE00A30FA1 /* BridgeCommon.h */,
+				9F7A56651DAD5AFE00A30FA1 /* SAPMDCBridging-Header.h */,
+				9F7A56661DAD5AFE00A30FA1 /* SAPMDC.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		9F911C6E1D9AD1A0002E34A4 = {
+			isa = PBXGroup;
+			children = (
+				9F7A565A1DAD5A2D00A30FA1 /* Common */,
+				858A30381E520DD3006D2EB8 /* Foundation */,
+				9F911C7A1D9AD1A0002E34A4 /* OData */,
+				C18D77C41DB7C7600096AAFB /* FioriUI */,
+				A2125FF01DB1845C006A6D07 /* SAPMDCFrameworkTests */,
+				9F911C791D9AD1A0002E34A4 /* Products */,
+				C1FAF3931DB00A2500F9FBBC /* Frameworks */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		9F911C791D9AD1A0002E34A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F911C781D9AD1A0002E34A4 /* SAPMDC.framework */,
+				A2125FEF1DB1845C006A6D07 /* SAPMDCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F911C7A1D9AD1A0002E34A4 /* OData */ = {
+			isa = PBXGroup;
+			children = (
+				DC79D0F51ECF72F100513BEA /* Crud */,
+				DC4551131E93E48E0056EE50 /* Extensions */,
+				9F0F46971E393DA0005AE7DA /* OfflineODataDelegateImpl.swift */,
+				9F7A566B1DAD5B0B00A30FA1 /* DataProvider.swift */,
+				9F7A566C1DAD5B0B00A30FA1 /* DataServiceManager.swift */,
+				9F7A566E1DAD5B0B00A30FA1 /* DataServiceUtils.swift */,
+				9F7A566D1DAD5B0B00A30FA1 /* ODataServiceManagerBridge.m */,
+				9F7A566F1DAD5B0B00A30FA1 /* ODataServiceManagerBridge.h */,
+				DCF548E11E7C310D00060C3E /* ODataServiceProvider.swift */,
+				DC5DFF9E1E8171BB00AC3D1F /* ODataErrors.swift */,
+				DC541A821EA6AE5F00888157 /* ChangeSetManager.swift */,
+			);
+			path = OData;
+			sourceTree = "<group>";
+		};
+		9F9458B31E5B91510026E0D0 /* OData */ = {
+			isa = PBXGroup;
+			children = (
+				A2886CD11DB54FE0005F153B /* ODataServiceProviderTests.swift */,
+				A2886CBB1DB54EF5005F153B /* DataServiceManagerTests.swift */,
+				1EB7D4B61E78C67300403F5A /* DataServiceUtilsTests.swift */,
+			);
+			name = OData;
+			sourceTree = "<group>";
+		};
+		9F9458B41E5B91680026E0D0 /* ObjectCell */ = {
+			isa = PBXGroup;
+			children = (
+				C15E40211DBE94E200F70139 /* ObjectCellTests.swift */,
+				9F9458B51E5B91960026E0D0 /* ObjectCollectionCellTests.swift */,
+			);
+			name = ObjectCell;
+			sourceTree = "<group>";
+		};
+		9FA240DD1E4907EF007B38E0 /* SectionedTable */ = {
+			isa = PBXGroup;
+			children = (
+				A2502F3B1E99B4E500156F7A /* ContactCell.swift */,
+				9FD52F361EB2729600934E2B /* ExtensionCollectionViewCell.swift */,
+				AB38E5641F20E26A0017843C /* FUIButtonWrapper.swift */,
+				1EA77EC51F2BB6BE00C77286 /* HelpSectionFooterView.swift */,
+				1E3C529A1F7D74F8004817BE /* EmptySectionTableViewCell.swift */,
+				9FA240E71E491E15007B38E0 /* Sections.swift */,
+				9FA240E91E492894007B38E0 /* SectionBridge.h */,
+				9FA240EB1E4928DA007B38E0 /* SectionBridge.m */,
+				9F1923B31E539092007497C9 /* SectionDelegate.h */,
+				9F1923B51E539114007497C9 /* SectionDelegate.m */,
+				9FA240DE1E490887007B38E0 /* SectionedTableBridge.h */,
+				9FA240E01E4908A7007B38E0 /* SectionedTableBridge.m */,
+				9FA240E41E4915DE007B38E0 /* SectionedTableViewController.swift */,
+			);
+			name = SectionedTable;
+			sourceTree = "<group>";
+		};
+		9FA240ED1E492F43007B38E0 /* SectionedTable */ = {
+			isa = PBXGroup;
+			children = (
+				1E605BB71E4B9C9A00E0CC6D /* SectionsTest.swift */,
+			);
+			name = SectionedTable;
+			sourceTree = "<group>";
+		};
+		A2125FF01DB1845C006A6D07 /* SAPMDCFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				806FEB8F1E8985F800D055A9 /* OAuth */,
+				85426EAD1E5B21D7004C14F0 /* Logger */,
+				9F9458B31E5B91510026E0D0 /* OData */,
+				40863F751DFF29E800A34281 /* FioriUI */,
+				A2886CCC1DB54F8F005F153B /* Mock */,
+				A2125FF31DB1845C006A6D07 /* Info.plist */,
+			);
+			name = SAPMDCFrameworkTests;
+			path = SnowblindFrameworkTests;
+			sourceTree = "<group>";
+		};
+		A23DCFEA1E99D6C900D77CBF /* ContactCell */ = {
+			isa = PBXGroup;
+			children = (
+				A23DCFEB1E99D71E00D77CBF /* ContactCellTests.swift */,
+			);
+			name = ContactCell;
+			sourceTree = "<group>";
+		};
+		A2886CCC1DB54F8F005F153B /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				A2886CCE1DB54F8F005F153B /* NorthwindCSDL.xml */,
+				C1CD75521DCA025500801C37 /* MockOnlineODataProvider.swift */,
+				85BC16881E28BDF200CEC034 /* OnlineODataProviderReadMock.swift */,
+				83BC6AA21E3F9147008AE61D /* MockDataService.swift */,
+				8009D1031E40090B008C0064 /* MockDataProvider.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		A289D1D71E85554900937F42 /* Styling */ = {
+			isa = PBXGroup;
+			children = (
+				A289D1D81E8555C000937F42 /* StylingHelper.swift */,
+				A289D1D91E8555C000937F42 /* StylingHelperBridge.h */,
+				A289D1DA1E8555C000937F42 /* StylingHelperBridge.m */,
+			);
+			name = Styling;
+			sourceTree = "<group>";
+		};
+		A620FA8D1DD5F1E4000453E0 /* FormCell */ = {
+			isa = PBXGroup;
+			children = (
+				5E6B350C1F51CA6E00D40F13 /* ListPickerDataSource.swift */,
+				A2A116DB1DE596CC00A2717B /* FormCellItemDelegate.m */,
+				A2A116CB1DE596BC00A2717B /* FormCellItemDelegate.h */,
+				A620FA9E1DD5F22E000453E0 /* FormCellContainerBridge.m */,
+				A620FA9C1DD5F221000453E0 /* FormCellContainerBridge.h */,
+				EEB6D3131DDF3CCB00AD6DD6 /* FormCellContainerViewController.swift */,
+				D40417041DFB356B00F81395 /* FormCellFactory.swift */,
+				D4A5BF7A1E2D61CE00DFD57E /* ParameterHelper.swift */,
+				A2E279F01E5D8A62007530CE /* AttachmentFormViewDelegate.swift */,
+			);
+			name = FormCell;
+			sourceTree = "<group>";
+		};
+		A661B3A31F28B68000511424 /* OpenDocument */ = {
+			isa = PBXGroup;
+			children = (
+				A661B3A61F28B6E200511424 /* OpenDocumentBridge.h */,
+				A661B3A81F28B8F800511424 /* OpenDocumentBridge.m */,
+				A661B3AA1F28B92B00511424 /* OpenDocumentBridge.swift */,
+			);
+			name = OpenDocument;
+			sourceTree = "<group>";
+		};
+		A6B8B43E1F38774C00B8794F /* OpenDocument */ = {
+			isa = PBXGroup;
+			children = (
+				A6B8B4411F38784E00B8794F /* OpenDocumentTest.swift */,
+			);
+			name = OpenDocument;
+			sourceTree = "<group>";
+		};
+		AB4EE5AD1E4DEF340097D51C /* ObjectHeader */ = {
+			isa = PBXGroup;
+			children = (
+				AB4EE5B41E4DEFBD0097D51C /* ObjectHeader.swift */,
+			);
+			name = ObjectHeader;
+			sourceTree = "<group>";
+		};
+		C18D77C41DB7C7600096AAFB /* FioriUI */ = {
+			isa = PBXGroup;
+			children = (
+				A661B3A31F28B68000511424 /* OpenDocument */,
+				A289D1D71E85554900937F42 /* Styling */,
+				1E3877AD1E95720300192F9B /* Banner */,
+				5E8D37701E8E654E0082CFA5 /* ActivityIndicator */,
+				EEFF691A1E81203400327F22 /* NavigationBar */,
+				9F3D51C91E799AB10030CE0A /* Toast */,
+				1E796A3B1E5924FF00161C47 /* Onboarding */,
+				1EBFE6891E54AD2500624046 /* Common */,
+				9FA240DD1E4907EF007B38E0 /* SectionedTable */,
+				AB4EE5AD1E4DEF340097D51C /* ObjectHeader */,
+				A620FA8D1DD5F1E4000453E0 /* FormCell */,
+				C18D77ED1DB7D7F70096AAFB /* ObjectCell */,
+			);
+			path = FioriUI;
+			sourceTree = "<group>";
+		};
+		C18D77ED1DB7D7F70096AAFB /* ObjectCell */ = {
+			isa = PBXGroup;
+			children = (
+				9F9458AE1E576AFD0026E0D0 /* ObjectCollectionCell.swift */,
+				C18D77D81DB7CBB10096AAFB /* ObjectCellBridge.h */,
+				C18D77D91DB7CBB10096AAFB /* ObjectCellBridge.m */,
+				C18D77EE1DB7D9190096AAFB /* ObjectCell.swift */,
+			);
+			name = ObjectCell;
+			sourceTree = "<group>";
+		};
+		C1FAF3931DB00A2500F9FBBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC4551131E93E48E0056EE50 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DC4551161E93E4D60056EE50 /* EntityValueList+ToJson.swift */,
+				DC4551141E93E4BA0056EE50 /* EntityValue+Edit.swift */,
+				DC4551181E93E4EA0056EE50 /* EntityValue+ToJson.swift */,
+				DC626B0C1EA156CB00288D64 /* ChangeSet+EntityWithReadLink.swift */,
+				DC8C18B21ED5E6D9003FF9CD /* Property+PartnerPropertyFromEntity.swift */,
+			);
+			name = Extensions;
+			path = OData/Extensions;
+			sourceTree = SOURCE_ROOT;
+		};
+		DC79D0F51ECF72F100513BEA /* Crud */ = {
+			isa = PBXGroup;
+			children = (
+				DCDBF1C61ED47CD300A77FEE /* ODataLinking */,
+				DC79D1211ED26C8000513BEA /* ReadParams */,
+				DC79D11D1ED26C8000513BEA /* ODataDeleter.swift */,
+				DC79D11E1ED26C8000513BEA /* ODataCreator.swift */,
+				DC79D11F1ED26C8000513BEA /* ODataUpdater.swift */,
+				DC79D1201ED26C8000513BEA /* BaseODataCruder.swift */,
+				DC79D11C1ED26C8000513BEA /* CrudParamsHelper.swift */,
+				DC79D0F71ECF731400513BEA /* ODataCrudOperation.swift */,
+				DC79D1061ECF8A3700513BEA /* ReadService.swift */,
+				DC79D0F61ECF731400513BEA /* ODataCrudParams.swift */,
+			);
+			name = Crud;
+			path = OData/Crud;
+			sourceTree = SOURCE_ROOT;
+		};
+		DC79D1211ED26C8000513BEA /* ReadParams */ = {
+			isa = PBXGroup;
+			children = (
+				DC79D1221ED26C8000513BEA /* QueryOptionsReadParams.swift */,
+				DC79D1231ED26C8000513BEA /* ReadLinkReadParams.swift */,
+				DC79D1241ED26C8000513BEA /* ReadParams.swift */,
+			);
+			path = ReadParams;
+			sourceTree = "<group>";
+		};
+		DCDBF1C61ED47CD300A77FEE /* ODataLinking */ = {
+			isa = PBXGroup;
+			children = (
+				DCDBF1D11ED47D0500A77FEE /* ODataLinks */,
+				DCDBF1D21ED47D0500A77FEE /* ODataLinkers */,
+			);
+			path = ODataLinking;
+			sourceTree = "<group>";
+		};
+		DCDBF1D11ED47D0500A77FEE /* ODataLinks */ = {
+			isa = PBXGroup;
+			children = (
+				DCDBF1DD1ED47D9C00A77FEE /* BindingLink.swift */,
+				DCDBF1DF1ED47DB600A77FEE /* ReferentialConstraintLink.swift */,
+				DC9074F21ED4FA69002CE1BE /* LinkingScenario.swift */,
+			);
+			path = ODataLinks;
+			sourceTree = "<group>";
+		};
+		DCDBF1D21ED47D0500A77FEE /* ODataLinkers */ = {
+			isa = PBXGroup;
+			children = (
+				DCDBF1D31ED47D0500A77FEE /* ODataLinker.swift */,
+				DCDBF1D41ED47D0500A77FEE /* ODataLinkCreator.swift */,
+				DCDBF1D51ED47D0500A77FEE /* ODataLinkDeleter.swift */,
+				DCDBF1D71ED47D0500A77FEE /* ODataLinkUpdater.swift */,
+			);
+			path = ODataLinkers;
+			sourceTree = "<group>";
+		};
+		EEFF691A1E81203400327F22 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				EEFF691B1E81205000327F22 /* NavigationBarBridge.h */,
+				EEFF691C1E81206000327F22 /* NavigationBarBridge.m */,
+				EEFF691E1E81206F00327F22 /* NavigationBar.swift */,
+			);
+			name = NavigationBar;
+			sourceTree = "<group>";
+		};
+		EEFF69211E82781D00327F22 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				EEFF69221E8279B700327F22 /* NavigationBarTests.swift */,
+			);
+			name = NavigationBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9F911C751D9AD1A0002E34A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EC196EA1E6117FF00A7DD3B /* WelcomeScreenDelegate.h in Headers */,
+				A620FA9D1DD5F221000453E0 /* FormCellContainerBridge.h in Headers */,
+				C18D77DA1DB7CBB10096AAFB /* ObjectCellBridge.h in Headers */,
+				A661B3A71F28B83000511424 /* OpenDocumentBridge.h in Headers */,
+				858A303A1E52F8A3006D2EB8 /* LoggerBridge.h in Headers */,
+				9F7A56691DAD5AFE00A30FA1 /* SAPMDCBridging-Header.h in Headers */,
+				9F7A56681DAD5AFE00A30FA1 /* BridgeCommon.h in Headers */,
+				1EAC37F21E7E3AD100C6C4EB /* PasscodeInputScreenBridge.h in Headers */,
+				EEFF69201E8121E900327F22 /* NavigationBarBridge.h in Headers */,
+				9F1923B41E539092007497C9 /* SectionDelegate.h in Headers */,
+				A289D1DC1E8555C000937F42 /* StylingHelperBridge.h in Headers */,
+				9F1923B41E539092007497C9 /* SectionDelegate.h in Headers */,
+				9F7A566A1DAD5AFE00A30FA1 /* SAPMDC.h in Headers */,
+				A2A116CC1DE596BC00A2717B /* FormCellItemDelegate.h in Headers */,
+				1E3877B11E95722B00192F9B /* BannerMessageViewBridge.h in Headers */,
+				9FA240DF1E490887007B38E0 /* SectionedTableBridge.h in Headers */,
+				9F3D51CD1E799B740030CE0A /* ToastMessageViewBridge.h in Headers */,
+				1E2A30701E72F8F7004596BD /* SecureStoreBridge.h in Headers */,
+				1E796A481E592E5100161C47 /* WelcomeScreenBridge.h in Headers */,
+				1EAC37EE1E7E39BE00C6C4EB /* PasscodeInputScreenDelegate.h in Headers */,
+				9FA240EA1E492894007B38E0 /* SectionBridge.h in Headers */,
+				9F7A56751DAD5B0B00A30FA1 /* ODataServiceManagerBridge.h in Headers */,
+				806FEB8E1E837B3200D055A9 /* OAuthRequestorBridge.h in Headers */,
+				5E59FE9B1E8E74B900696E84 /* ActivityIndicatorViewBridge.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9F911C771D9AD1A0002E34A4 /* SAPMDC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F911C801D9AD1A0002E34A4 /* Build configuration list for PBXNativeTarget "SAPMDC" */;
+			buildPhases = (
+				9F911C731D9AD1A0002E34A4 /* Sources */,
+				9F911C741D9AD1A0002E34A4 /* Frameworks */,
+				9F911C751D9AD1A0002E34A4 /* Headers */,
+				9F911C761D9AD1A0002E34A4 /* Resources */,
+				8345BA631DE89E2300B85392 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAPMDC;
+			productName = SnowblindFramework;
+			productReference = 9F911C781D9AD1A0002E34A4 /* SAPMDC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2125FEE1DB1845C006A6D07 /* SAPMDCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2125FF71DB1845C006A6D07 /* Build configuration list for PBXNativeTarget "SAPMDCTests" */;
+			buildPhases = (
+				A2125FEB1DB1845C006A6D07 /* Sources */,
+				A2125FEC1DB1845C006A6D07 /* Frameworks */,
+				A2125FED1DB1845C006A6D07 /* Resources */,
+				C1F4E7CA1DB54932002419A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2F4BD551DB51BD3005AC2F7 /* PBXTargetDependency */,
+			);
+			name = SAPMDCTests;
+			productName = SnowblindFrameworkTests;
+			productReference = A2125FEF1DB1845C006A6D07 /* SAPMDCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F911C6F1D9AD1A0002E34A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = SAP;
+				TargetAttributes = {
+					9F911C771D9AD1A0002E34A4 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					A2125FEE1DB1845C006A6D07 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9F911C721D9AD1A0002E34A4 /* Build configuration list for PBXProject "SAPMDC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F911C6E1D9AD1A0002E34A4;
+			productRefGroup = 9F911C791D9AD1A0002E34A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F911C771D9AD1A0002E34A4 /* SAPMDC */,
+				A2125FEE1DB1845C006A6D07 /* SAPMDCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F911C761D9AD1A0002E34A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431BADDB1EAE9CB300C07FEF /* EULA.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2125FED1DB1845C006A6D07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2886CD01DB54F8F005F153B /* NorthwindCSDL.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8345BA631DE89E2300B85392 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo ${SRCROOT}/../../lib/iOS/${PRODUCT_NAME}.framework\n\n\nif [ -d ${SRCROOT}/../../lib/iOS/${PRODUCT_NAME}.framework ]\nthen\necho \"Directory already exists\"\nelse\nmkdir -p ${SRCROOT}/../../lib/iOS/${PRODUCT_NAME}.framework\nfi\n\nrm -rf ${SRCROOT}/../../lib/iOS/${PRODUCT_NAME}.framework\n\ncp -R ${CONFIGURATION_BUILD_DIR}/${PRODUCT_NAME}.framework ${SRCROOT}/../../lib/iOS/${PRODUCT_NAME}.framework\n\nrm -rf ${SRCROOT}/../../plugins/SAP/platforms/ios/${PRODUCT_NAME}.framework\ncp -R ${CONFIGURATION_BUILD_DIR}/${PRODUCT_NAME}.framework ${SRCROOT}/${PRODUCT_NAME}.framework";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F911C731D9AD1A0002E34A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5DFF9F1E8171BB00AC3D1F /* ODataErrors.swift in Sources */,
+				9FA240E81E491E15007B38E0 /* Sections.swift in Sources */,
+				434E39431E60A7E400E6383A /* AppConfig.swift in Sources */,
+				1E796A491E592E5100161C47 /* WelcomeScreenBridge.m in Sources */,
+				A2502F3C1E99B4E500156F7A /* ContactCell.swift in Sources */,
+				1EAC37F01E7E3A2000C6C4EB /* PasscodeInputScreenDelegate.m in Sources */,
+				DC9074F31ED4FA69002CE1BE /* LinkingScenario.swift in Sources */,
+				806FEB8D1E83184A00D055A9 /* OAuthRequestorBridge.m in Sources */,
+				DC79D12A1ED26C8000513BEA /* QueryOptionsReadParams.swift in Sources */,
+				9FA72B601F548C630074A9BF /* Search.swift in Sources */,
+				DC79D1251ED26C8000513BEA /* CrudParamsHelper.swift in Sources */,
+				431CB2B41E6476030076E346 /* PasscodeViewController.swift in Sources */,
+				A620FA9F1DD5F22E000453E0 /* FormCellContainerBridge.m in Sources */,
+				EEFF691D1E81206000327F22 /* NavigationBarBridge.m in Sources */,
+				DC79D0F91ECF731400513BEA /* ODataCrudOperation.swift in Sources */,
+				D4A5BF7B1E2D61CE00DFD57E /* ParameterHelper.swift in Sources */,
+				EEB6D3141DDF3CCB00AD6DD6 /* FormCellContainerViewController.swift in Sources */,
+				9F3D51CF1E799BA30030CE0A /* ToastMessageViewBridge.m in Sources */,
+				AB38E5651F20E26A0017843C /* FUIButtonWrapper.swift in Sources */,
+				1E3877B31E95722B00192F9B /* BannerMessageViewBridge.m in Sources */,
+				858A303E1E52F9AB006D2EB8 /* LoggerManager.swift in Sources */,
+				857CD7301F7A426F00E9F451 /* PasscodeRetryHandler.swift in Sources */,
+				DCDBF1DA1ED47D0500A77FEE /* ODataLinkDeleter.swift in Sources */,
+				DC4551171E93E4D60056EE50 /* EntityValueList+ToJson.swift in Sources */,
+				9F1923B61E539114007497C9 /* SectionDelegate.m in Sources */,
+				DC79D0F81ECF731400513BEA /* ODataCrudParams.swift in Sources */,
+				A2A116DC1DE596CC00A2717B /* FormCellItemDelegate.m in Sources */,
+				9F7A56731DAD5B0B00A30FA1 /* ODataServiceManagerBridge.m in Sources */,
+				1E3C529B1F7D74F8004817BE /* EmptySectionTableViewCell.swift in Sources */,
+				5E59FE8E1E8E701700696E84 /* ActivityIndicatorView.swift in Sources */,
+				9F3D51CB1E799ADD0030CE0A /* ToastMessageView.swift in Sources */,
+				858A303C1E52F8CF006D2EB8 /* LoggerBridge.m in Sources */,
+				DC79D1071ECF8A3700513BEA /* ReadService.swift in Sources */,
+				DC8C18B31ED5E6D9003FF9CD /* Property+PartnerPropertyFromEntity.swift in Sources */,
+				DCDBF1E01ED47DB600A77FEE /* ReferentialConstraintLink.swift in Sources */,
+				A289D1DB1E8555C000937F42 /* StylingHelper.swift in Sources */,
+				DC4551191E93E4EA0056EE50 /* EntityValue+ToJson.swift in Sources */,
+				DCDBF1D91ED47D0500A77FEE /* ODataLinkCreator.swift in Sources */,
+				C18D77DB1DB7CBB10096AAFB /* ObjectCellBridge.m in Sources */,
+				DC79D12C1ED26C8000513BEA /* ReadParams.swift in Sources */,
+				DC79D12B1ED26C8000513BEA /* ReadLinkReadParams.swift in Sources */,
+				DC79D1271ED26C8000513BEA /* ODataCreator.swift in Sources */,
+				EEFF691F1E81206F00327F22 /* NavigationBar.swift in Sources */,
+				DC626B0D1EA156CB00288D64 /* ChangeSet+EntityWithReadLink.swift in Sources */,
+				806FEB861E80233100D055A9 /* OAuthRequestor.swift in Sources */,
+				5E6B350D1F51CA6E00D40F13 /* ListPickerDataSource.swift in Sources */,
+				9F9458AF1E576AFD0026E0D0 /* ObjectCollectionCell.swift in Sources */,
+				9F7A56741DAD5B0B00A30FA1 /* DataServiceUtils.swift in Sources */,
+				9F0F46981E393DA0005AE7DA /* OfflineODataDelegateImpl.swift in Sources */,
+				1EBFE68B1E54AD5D00624046 /* FullScreenTableViewControllerTraits.swift in Sources */,
+				1E2A306F1E72F801004596BD /* SecureStoreManager.swift in Sources */,
+				A2E279F11E5D8A62007530CE /* AttachmentFormViewDelegate.swift in Sources */,
+				DC541A831EA6AE5F00888157 /* ChangeSetManager.swift in Sources */,
+				DC79D1291ED26C8000513BEA /* BaseODataCruder.swift in Sources */,
+				9FA240E51E4915DE007B38E0 /* SectionedTableViewController.swift in Sources */,
+				DCDBF1D81ED47D0500A77FEE /* ODataLinker.swift in Sources */,
+				5E59FE9C1E8E74B900696E84 /* ActivityIndicatorViewBridge.m in Sources */,
+				1EA77EC61F2BB6BE00C77286 /* HelpSectionFooterView.swift in Sources */,
+				C18D77EF1DB7D9190096AAFB /* ObjectCell.swift in Sources */,
+				85543A9F1F7BCBCE00491D36 /* KeychainUtils.swift in Sources */,
+				9FD52F371EB2729600934E2B /* ExtensionCollectionViewCell.swift in Sources */,
+				A661B3A91F28B8F800511424 /* OpenDocumentBridge.m in Sources */,
+				A289D1DD1E8555C000937F42 /* StylingHelperBridge.m in Sources */,
+				1EC196EC1E61183C00A7DD3B /* WelcomeScreenDelegate.m in Sources */,
+				1E796A411E5925B300161C47 /* WelcomeScreenViewController.swift in Sources */,
+				1E2A306D1E72F770004596BD /* SecureStoreBridge.m in Sources */,
+				1E3877B21E95722B00192F9B /* BannerMessageView.swift in Sources */,
+				AB4019451E5DFEDB00186EAA /* ImagePathHandler.swift in Sources */,
+				9FA240E11E4908A7007B38E0 /* SectionedTableBridge.m in Sources */,
+				DC79D1281ED26C8000513BEA /* ODataUpdater.swift in Sources */,
+				DCDBF1DE1ED47D9C00A77FEE /* BindingLink.swift in Sources */,
+				430AE9531E687653006E3F41 /* EULAViewController.swift in Sources */,
+				DCDBF1DC1ED47D0500A77FEE /* ODataLinkUpdater.swift in Sources */,
+				9FA240EC1E4928DA007B38E0 /* SectionBridge.m in Sources */,
+				AB4EE5B51E4DEFBD0097D51C /* ObjectHeader.swift in Sources */,
+				D40417051DFB356B00F81395 /* FormCellFactory.swift in Sources */,
+				806FEB881E81B6E800D055A9 /* SecureOAuth2TokenStore.swift in Sources */,
+				1EAC37F41E7E3B2700C6C4EB /* PasscodeInputScreenBridge.m in Sources */,
+				DC4551151E93E4BA0056EE50 /* EntityValue+Edit.swift in Sources */,
+				9F7A56711DAD5B0B00A30FA1 /* DataProvider.swift in Sources */,
+				9F7A56721DAD5B0B00A30FA1 /* DataServiceManager.swift in Sources */,
+				DC79D1261ED26C8000513BEA /* ODataDeleter.swift in Sources */,
+				DCF548E21E7C310D00060C3E /* ODataServiceProvider.swift in Sources */,
+				A661B3AB1F28B92B00511424 /* OpenDocumentBridge.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2125FEB1DB1845C006A6D07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFF69231E8279B700327F22 /* NavigationBarTests.swift in Sources */,
+				1EB7D4B71E78C67300403F5A /* DataServiceUtilsTests.swift in Sources */,
+				D40B956F1E0C7760009226E8 /* FormCellContainerViewControllerTest.swift in Sources */,
+				85426EAF1E5B2228004C14F0 /* LoggerManagerTest.swift in Sources */,
+				408D144E1EA8F84E0098E7B2 /* PasscodeViewControllerTest.swift in Sources */,
+				8009D1041E40090B008C0064 /* MockDataProvider.swift in Sources */,
+				9F3D51D21E79A01C0030CE0A /* ToastMessageViewTests.swift in Sources */,
+				B3A5556E1EA6217900391BA4 /* FilterFormCellFactoryTest.swift in Sources */,
+				83BC6AA31E3F9147008AE61D /* MockDataService.swift in Sources */,
+				9F9458B61E5B91960026E0D0 /* ObjectCollectionCellTests.swift in Sources */,
+				30AB6C4A1E6DF0F700DEEB0E /* SecureStoreManagerTests.swift in Sources */,
+				85BC16891E28BDF200CEC034 /* OnlineODataProviderReadMock.swift in Sources */,
+				A2886CBC1DB54EF5005F153B /* DataServiceManagerTests.swift in Sources */,
+				85E144251F7A80A500D61478 /* AppConfig.swift in Sources */,
+				40863F781DFF2A4E00A34281 /* FormCellFactoryTest.swift in Sources */,
+				A2886CD21DB54FE0005F153B /* ODataServiceProviderTests.swift in Sources */,
+				806FEB911E89862100D055A9 /* OAuthRequestorTest.swift in Sources */,
+				A6B8B4421F38784E00B8794F /* OpenDocumentTest.swift in Sources */,
+				A23DCFEC1E99D71E00D77CBF /* ContactCellTests.swift in Sources */,
+				C1CD75531DCA025500801C37 /* MockOnlineODataProvider.swift in Sources */,
+				C15E40221DBE94E200F70139 /* ObjectCellTests.swift in Sources */,
+				1E605BB81E4B9C9A00E0CC6D /* SectionsTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2F4BD551DB51BD3005AC2F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F911C771D9AD1A0002E34A4 /* SAPMDC */;
+			targetProxy = A2F4BD541DB51BD3005AC2F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9F911C7E1D9AD1A0002E34A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = ../../plugins/HCP/platforms/ios;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "SnowblindBridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F911C7F1D9AD1A0002E34A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = ../../plugins/HCP/platforms/ios;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "SnowblindBridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F911C811D9AD1A0002E34A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/";
+				INFOPLIST_FILE = Common/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.SAPMDC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		9F911C821D9AD1A0002E34A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/";
+				INFOPLIST_FILE = Common/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.SAPMDC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		A2125FF81DB1845C006A6D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj *.framework";
+				FRAMEWORK_SEARCH_PATHS = "";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/../../plugins/SAP/platforms/ios/";
+				INFOPLIST_FILE = SnowblindFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.SnowblindFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A2125FF91DB1845C006A6D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj *.framework";
+				FRAMEWORK_SEARCH_PATHS = "";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/../../plugins/SAP/platforms/ios/";
+				INFOPLIST_FILE = SnowblindFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.SnowblindFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F911C721D9AD1A0002E34A4 /* Build configuration list for PBXProject "SAPMDC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F911C7E1D9AD1A0002E34A4 /* Debug */,
+				9F911C7F1D9AD1A0002E34A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F911C801D9AD1A0002E34A4 /* Build configuration list for PBXNativeTarget "SAPMDC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F911C811D9AD1A0002E34A4 /* Debug */,
+				9F911C821D9AD1A0002E34A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2125FF71DB1845C006A6D07 /* Build configuration list for PBXNativeTarget "SAPMDCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2125FF81DB1845C006A6D07 /* Debug */,
+				A2125FF91DB1845C006A6D07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F911C6F1D9AD1A0002E34A4 /* Project object */;
+}
